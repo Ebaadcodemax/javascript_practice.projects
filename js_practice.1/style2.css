@@ -1,0 +1,31 @@
+.box{
+    height: 100px;
+    width: 100px;
+    border: 4px solid black;
+   
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: dodgerblue;
+}
+/*
+.paragraph{
+
+    text-align: center;
+    background-color: aquamarine;
+    text-decoration: underline;
+    color: brown;
+}
+
+.para{
+    font-size: 40px;
+}
+
+ */
+
+
+ .btn{
+    height: 40px;
+    width:90px;
+    background-color: aquamarine;
+ }

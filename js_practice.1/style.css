@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(230, 226, 117);
+}
+
+.head{
+    
+    color: red;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+    background-color: aquamarine;}

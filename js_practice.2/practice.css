@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: center;         /* keeps items centered */
+  align-items: center;
+  flex-wrap: wrap;                 /* lets items wrap on smaller screens */
+  gap: clamp(0.5rem, 5vw, 2rem);   /* responsive spacing */
+  padding: 10px 20px;
+  background-color: #333;;
+}
+
+#name{
+    position: absolute;
+      top: 50%;
+      left: 40%;
+      bottom: 15%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 4rem;
+      font-weight: bold;
+}
+
+.logo{
+    position: relative;
+    flex-shrink: 0;
+}
+
+.logo img{
+    width: 500px;
+    height: auto;
+    display: block;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+    font-size: 2.5rem;
+}
